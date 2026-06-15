@@ -134,7 +134,7 @@ c1.metric("Länge Vektor v", f"{laenge_v:.2f}")
 c2.metric("Länge Vektor w", f"{laenge_w:.2f}")
 c3, c4 = st.columns(2)
 skalar_de = f"{skalarprodukt_wert:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-st.metric(label="skalarprofukt", value=skalar_de)
+st.metric(label="skalarprodukt", value=skalar_de)
 winkel_de = f"{winkel_grad:.1f}".replace(".", ",") + "°"
 st.metric(label="winkel zwischen v und w", value=winkel_de)
 if skalarprodukt_wert == 0:
