@@ -3,6 +3,7 @@ import streamlit as st
 import math
 
 v_cross = None
+
 p1_array = [0, 0, 0]
 st.title("Vektor-Visualisierung")
 ax, ay, az = 0.0, 0.0, 0.0
